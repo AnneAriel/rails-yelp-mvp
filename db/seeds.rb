@@ -7,3 +7,5 @@
 #   Character.create(name: "Luke", movie: movies.first)
 
 # 5 restaus à créer
+require 'faker'
+
