@@ -19,7 +19,7 @@
   <div class="reviews">
     <ul>
       <% restaurant.reviews.each do |review| %>
-        <li><%= review.created_at&.strftime("%d %m %y") %> - <%= review.content %> <%= link_to "delete review", review_path(review), data: { turbo_method: :delete, turbo_confirm: "Are you sure ?" } %></li>
+        <li><%= review.created_at&.strftime("%d %m %y") %> - <%= review.content %> </li>
       <% end %>
     </ul>
   </div>
